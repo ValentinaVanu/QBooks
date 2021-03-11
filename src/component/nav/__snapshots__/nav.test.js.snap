@@ -5,21 +5,21 @@ exports[`renders main nav component 1`] = `
   className="sc-gsTCUz hMBXnp"
 >
   <a
-    className="sc-bdfBwQ eusfeB"
+    className="sc-bdfBwQ hUbxGD"
     href="/item/1"
     onClick={[Function]}
   >
     item1
   </a>
   <a
-    className="sc-bdfBwQ eusfeB"
+    className="sc-bdfBwQ hUbxGD"
     href="/item/2"
     onClick={[Function]}
   >
     item2
   </a>
   <a
-    className="sc-bdfBwQ eusfeB"
+    className="sc-bdfBwQ hUbxGD"
     href="/item/3"
     onClick={[Function]}
   >

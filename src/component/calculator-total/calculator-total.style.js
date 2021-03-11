@@ -16,7 +16,7 @@ export const StyledTotalBody = styled.div`
   @media screen and (min-width: 768px) {
     position: absolute;
     top: 10px;
-    right: -11rem;
+    left: 0;
   }
 `
 

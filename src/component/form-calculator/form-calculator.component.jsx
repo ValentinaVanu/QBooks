@@ -25,19 +25,15 @@ const FormCalculator = () => {
   const handleInputChange = (e, setFieldValue) => {
     setFieldValue(e.target.name, e.target.value)
     dispatch(setFormValuesAction(e.target.name, e.target.value))
-    console.log(e.target.name, e.target.value)
   }
+
   return (
-    <Formik
-    initialValues={initialValues}
-    // validate={validate}
-    // onSubmit={submit}
-    >
-      {({ values, handleBlur, handleChange, isValid, errors, touched, setFieldValue, ...r }) => (
+    <Formik initialValues={initialValues}>
+      {({ values, setFieldValue }) => (
         <Form>
           <SFC.StyledFormWrapper>
               <SFC.StyledTitle>The QuickBook Calculator</SFC.StyledTitle>
-            {Object.keys(values).map( (element, key) => <SFC.StyledTextFieldWrapper key={key}>
+            {Object.keys(values).map((element, key) => <SFC.StyledTextFieldWrapper key={key}>
               <SFC.StyledTextField
                 fullWidth
                 id={element}
