@@ -9,7 +9,6 @@ export const TotalNumber = styled.div`
   font-weight: 700;
   padding: 2.5rem 5rem;
   font-size: 4rem;
-  /* width: 350px; */
 
 `
 export const StyledTotalBody = styled.div`
@@ -17,8 +16,7 @@ export const StyledTotalBody = styled.div`
   @media screen and (min-width: 768px) {
     position: absolute;
     top: 10px;
-    left: 10px;
-
+    right: -11rem;
   }
 `
 

@@ -24,8 +24,7 @@ export const StyledFormWrapper = styled.div`
 
   @media screen and (min-width: 768px) {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-
+    grid-template-columns: 4fr 4fr 1fr;
   }
 `
 

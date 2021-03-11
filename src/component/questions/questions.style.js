@@ -10,7 +10,7 @@ export const StyledQTitle = styled.div`
 
 export const StyledQWrapper = styled.div`
   @media screen and (min-width: 768px) {
-    width: 880px;
+    width: 45rem;
   }
 `
 

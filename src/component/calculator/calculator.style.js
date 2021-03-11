@@ -13,6 +13,6 @@ export const StyledPaper = styled(Paper)`
   }
 
   @media screen and (min-width: 768px) {
-    width: 55rem;
+    width: 45rem;
   }
 `
