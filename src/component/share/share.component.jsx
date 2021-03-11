@@ -6,6 +6,7 @@ import InstagramIcon from '@material-ui/icons/Instagram'
 import YouTubeIcon from '@material-ui/icons/YouTube'
 import MailOutlineIcon from '@material-ui/icons/MailOutline'
 import LinkIcon from '@material-ui/icons/Link'
+import { FacebookShareButton, LinkedinShareButton, PinterestShareButton, InstapaperShareButton, EmailShareButton} from 'react-share'
 
 import * as SI from './share.style'
 
@@ -17,12 +18,12 @@ const Share = () => {
     <SI.StyledIconWrapper>
       <SI.StyledTitle>Share my results</SI.StyledTitle>
       <SI.StyledIconList>
-        <SI.StyledIcon><FacebookIcon/></SI.StyledIcon>
-        <SI.StyledIcon><LinkedInIcon/></SI.StyledIcon>
-        <SI.StyledIcon><PinterestIcon/></SI.StyledIcon>
-        <SI.StyledIcon><InstagramIcon/></SI.StyledIcon>
+        <FacebookShareButton url="https://quickbooks.intuit.com/uk/"><SI.StyledIcon><FacebookIcon/></SI.StyledIcon></FacebookShareButton>
+        <LinkedinShareButton url="https://quickbooks.intuit.com/uk/"><SI.StyledIcon><LinkedInIcon/></SI.StyledIcon></LinkedinShareButton>
+        <PinterestShareButton url="https://quickbooks.intuit.com/uk/"><SI.StyledIcon><PinterestIcon/></SI.StyledIcon></PinterestShareButton>
+        <InstapaperShareButton url="https://quickbooks.intuit.com/uk/"><SI.StyledIcon><InstagramIcon/></SI.StyledIcon></InstapaperShareButton>
         <SI.StyledIcon><YouTubeIcon/></SI.StyledIcon>
-        <SI.StyledIcon><MailOutlineIcon/></SI.StyledIcon>
+        <EmailShareButton url="https://quickbooks.intuit.com/uk/"><SI.StyledIcon><MailOutlineIcon/></SI.StyledIcon></EmailShareButton>
         <SI.StyledIcon><LinkIcon/></SI.StyledIcon>
       </SI.StyledIconList>
     </SI.StyledIconWrapper>
