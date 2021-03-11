@@ -10,7 +10,6 @@ describe("Testing the quick book reducer", () => {
         income: 0,
         other: 7
       },
-      sum: 0
     }
     expect(quickBooksReducer(initialState, setFormValuesAction('other', 7))).toEqual(expected)
   })

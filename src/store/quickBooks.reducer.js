@@ -6,8 +6,7 @@ export const initialState = {
     commisions: 0,
     construction: 0,
     other: 0,
-  },
-  sum: 0,
+  }
 }
 
 export const quickBooksReducer = ( state = initialState, action ) => {
