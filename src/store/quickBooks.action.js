@@ -6,7 +6,3 @@ export const setFormValuesAction = (name, value) => ({
   value,
 })
 
-export const getFormValuesSum = sum => ({
-  type: constant.GET_FORM_VALUES_SUM,
-  sum
-})

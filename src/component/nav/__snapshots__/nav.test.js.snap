@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders main nav component 1`] = `
+<div
+  className="sc-gsTCUz hMBXnp"
+>
+  <a
+    className="sc-bdfBwQ eusfeB"
+    href="/item/1"
+    onClick={[Function]}
+  >
+    item1
+  </a>
+  <a
+    className="sc-bdfBwQ eusfeB"
+    href="/item/2"
+    onClick={[Function]}
+  >
+    item2
+  </a>
+  <a
+    className="sc-bdfBwQ eusfeB"
+    href="/item/3"
+    onClick={[Function]}
+  >
+    item3
+  </a>
+</div>
+`;

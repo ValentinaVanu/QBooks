@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders main logo component 1`] = `
+<a
+  aria-current="page"
+  className="sc-bdfBwQ ilJwJE"
+  href="/"
+  onClick={[Function]}
+/>
+`;
