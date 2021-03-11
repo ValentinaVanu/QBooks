@@ -8,6 +8,7 @@ export const StyledLogoWrapper = styled(Link)`
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
+  display: block;
   height: 50px;
   width: 200px;
   margin: 1rem;
