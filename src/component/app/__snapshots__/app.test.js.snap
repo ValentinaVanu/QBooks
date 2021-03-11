@@ -5,11 +5,11 @@ exports[`renders main app component 1`] = `
   className="sc-fodVxV hsmcBT"
 >
   <div
-    className="sc-hKgILt bQluPT"
+    className="sc-hKgILt fMdiMg"
   >
     <a
       aria-current="page"
-      className="sc-bdfBwQ ilJwJE"
+      className="sc-bdfBwQ ffIExw"
       href="/"
       onClick={[Function]}
     />
